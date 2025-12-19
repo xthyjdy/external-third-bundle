@@ -1,0 +1,10 @@
+{
+  "name": "eivorvch/external-third-bundle",
+  "type": "symfony-bundle",
+  "version": "1.0",
+  "autoload": {
+    "psr-4": {
+      "Eivorvch\\ExternalThirdBundle\\": "src/"
+    }
+  }
+}

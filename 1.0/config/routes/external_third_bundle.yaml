@@ -1,0 +1,4 @@
+external_third_bundle_routes:
+    resource: '@ExternalThirdBundle/Controller/'
+    type: attribute
+    prefix: /default-from_route-external-third-bundle-prefix

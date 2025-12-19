@@ -1,0 +1,9 @@
+services:
+    # Set the default namespace and path for autoconfiguration
+    _defaults:
+        autowire: true      # Automatically inject dependencies
+        autoconfigure: true # Automatically apply tags (like 'console.command')
+        
+    'Eivorvch\ExternalThirdBundle\':
+        resource: '../src/'
+        exclude: '../src/{DependencyInjection,Entity,Migrations}'
