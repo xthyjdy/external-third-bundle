@@ -1,8 +1,0 @@
-{
-  "bundles": {
-    "Eivorvch\\ExternalThirdBundle\\ExternalThirdBundle": ["all"]
-  },
-  "copy-from-recipe": {
-    "config/": "%CONFIG_DIR%/"
-  }
-}
