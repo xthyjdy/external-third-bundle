@@ -1,0 +1,7 @@
+# external-third-bundle/config/routes.yaml
+external_third_bundle:
+  resource: '../src/Controller/'
+  type: attribute
+  prefix: /xxx_external-third-bundle-prefix
+  # You generally don't put a prefix here so the
+  # main app can decide the prefix in its import.
