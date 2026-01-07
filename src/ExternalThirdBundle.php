@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ExternalThirdBundle extends Bundle //v2
+class ExternalThirdBundle extends Bundle //v3
 {
     /**
      * The build method is used to load the bundle's internal services.
